@@ -12,5 +12,11 @@ public class Main {
         DisemvowelTrolls example= new DisemvowelTrolls();
         DisemvowelTrolls.disemvowel("This website is for losers LOL!");
 
+
+        System.out.println("\nTercer ejercicio: \n");
+        Accumul exampleAccum= new Accumul();
+        Accumul.accum("abcd");
+
+
     }
 }
