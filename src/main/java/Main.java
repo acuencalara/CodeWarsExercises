@@ -5,6 +5,6 @@ public class Main {
 
     public static void callMethod(){
         JadenCase frase = new JadenCase();
-        JadenCase.toJadenCase("Hola, como estás?");
+        JadenCase.toJadenCase("Most Trees Are Blue");
     }
 }

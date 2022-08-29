@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class JadenCase {
 
     public static String toJadenCase(String phrase) {
+        if (phrase==null || phrase.equals("")) return null;
         String[] words = phrase.split(" ");
 
         ArrayList<String> phraseArrayList = new ArrayList<>();
