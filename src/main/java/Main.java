@@ -4,7 +4,11 @@ public class Main {
     }
 
     public static void callMethod(){
-        JadenCase frase = new JadenCase();
+        JadenCase phrase = new JadenCase();
         JadenCase.toJadenCase("Most Trees Are Blue");
+
+        DisemvowelTrolls example= new DisemvowelTrolls();
+        DisemvowelTrolls.disemvowel("This website is for losers LOL!");
+
     }
 }
