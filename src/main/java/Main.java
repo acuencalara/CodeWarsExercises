@@ -17,6 +17,10 @@ public class Main {
         Accumul exampleAccum= new Accumul();
         Accumul.accum("abcd");
 
+        System.out.println("\nCuarto ejercicio: \n");
+        SmashWords smashWords=new SmashWords();
+        smashWords.smash(new String[] { "I'm","Bilal", "Djaghout"});
+
 
     }
 }
