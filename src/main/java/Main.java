@@ -21,6 +21,14 @@ public class Main {
         SmashWords smashWords=new SmashWords();
         smashWords.smash(new String[] { "I'm","Bilal", "Djaghout"});
 
+        System.out.println("\nQuinto ejercicio: \n");
+        CountSheeps countSheeps = new CountSheeps();
+        countSheeps.countingSheep(20);
+
+        System.out.println("\nSexto ejercicio: \n");
+        BetterThanAverage betterThanAverage=new BetterThanAverage();
+        betterThanAverage.betterThan(new int[] {7,7,7},5);
+
 
     }
 }
