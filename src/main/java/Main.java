@@ -29,6 +29,10 @@ public class Main {
         BetterThanAverage betterThanAverage=new BetterThanAverage();
         betterThanAverage.betterThan(new int[] {7,7,7},5);
 
+        System.out.println("\nSeptimo ejercicio: \n");
+        GrassHopper grassHopper=new GrassHopper();
+        grassHopper.getGrade(90,80,100);
+
 
     }
 }
