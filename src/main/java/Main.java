@@ -33,6 +33,13 @@ public class Main {
         GrassHopper grassHopper=new GrassHopper();
         grassHopper.getGrade(90,80,100);
 
+        System.out.println("\nOctavo ejercicio: \n");
+        StringSplit stringSplit=new StringSplit();
+        stringSplit.solution("HolaHolaa");
+
+        System.out.println("\nNoveno ejercicio: \n");
+        LikeSystem likeSystem=new LikeSystem();
+        likeSystem.whoLikesIt(new String []{"Alex", "Jacob", "Mark", "Max"});
 
     }
 }
